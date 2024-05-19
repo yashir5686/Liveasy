@@ -104,7 +104,7 @@ class _OtpPageState extends State<OtpPage> {
                             verificationcode = otp;
                           });
                         },
-                        autoFillEnable: true,
+                        autoFillEnable: false,
                         autoFocus: false,
                         textInputAction: TextInputAction.done,
                         maxLength: 6,
